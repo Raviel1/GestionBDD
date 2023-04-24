@@ -156,10 +156,11 @@ CREATE TABLE IF NOT EXISTS ARTICLE (
    TITRE varchar(100) DEFAULT NULL,
    date_creation DATETIME,
    date_modification DATETIME DEFAULT NULL,
-   resume json
-   motsclef json
+   DATA json
+   
 
 )`;
+
 
 
 // Exécution des requêtes SQL de création de tables
